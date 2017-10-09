@@ -2,6 +2,7 @@ git-up(1) -- fetch and rebase all locally-tracked remote branches
 =================================================================
 
 [![Code Climate](https://codeclimate.com/github/aanand/git-up.png)](https://codeclimate.com/github/aanand/git-up)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fgit-up.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fgit-up?ref=badge_shield)
 
 SYNOPSIS
 --------
@@ -79,3 +80,7 @@ Default: **true**. If this option is set to **false**, git-up will not rebase br
 ### git-up.rebase.log-hook "COMMAND"
 
 Default: **unset**. Runs **COMMAND** every time a branch is rebased or fast-forwarded, with the old head as **$1** and the new head as **$2**. This can be used to view logs or diffs of incoming changes. For example: `'echo "changes on $1:"; git log --oneline --decorate $1..$2'`
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fgit-up.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fgit-up?ref=badge_large)
